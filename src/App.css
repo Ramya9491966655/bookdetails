@@ -1,5 +1,65 @@
-.App{
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
   text-align: center;
 }
 
-   
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book-item {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.book-details {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.book-page {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
